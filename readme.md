@@ -22,7 +22,7 @@
 
     ```
     crontab -e
-    0 10 * * * /bin/ban /home/USERNEVED/camelfeeder/teve.sh
+    0 10 * * * /bin/bash /home/USERNEVED/camelfeeder/teve.sh
     ```
 
 5. Esetleg windowsban task schedulerbe ha WSL-be raktad:
