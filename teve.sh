@@ -62,7 +62,7 @@ if curl --location --request POST "https://teveclub.hu/egyszam.pet" \
     --cookie-jar "cookie.txt" \
     --cookie "cookie.txt" \
     --data-urlencode "honnan=$tipp" \
-    --data-urlencode "learn=Ez a tippem!" \
+    --data-urlencode "tipp=Ez a tippem!" \
     --silent \
     --output - \
     | grep -q "l ebben a fordul"
