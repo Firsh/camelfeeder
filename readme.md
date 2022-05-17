@@ -34,3 +34,4 @@
 - Lehetne logoltatni de ha csokken a kedve ugyis kapsz levelet hogy mivan, ha belepsz akkor meg latod h meg van etetve.
 - Automatan mast tanitani neki? Nemtom mivan ha megtanulja a jelenlegit.
 - Random szamra tippeljen vagy egy arraybol valogasson h miket szoktal.
+- Tobb tevet is kene tudjon etetni, bar az mar luxus. Igazabol csak lemasolod a mappat es atirod a nevet meg az envet...
