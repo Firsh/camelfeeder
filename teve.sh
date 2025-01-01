@@ -38,24 +38,24 @@ else
     exit
 fi
 
-# echo "Tanitunk..."
-# 
-# if curl --location --request POST "https://teveclub.hu/tanit.pet" \
-#     --header "$ua" \
-#     --header "Content-Type: application/x-www-form-urlencoded" \
-#     --cookie-jar "cookie.txt" \
-#     --cookie "cookie.txt" \
-#     --data-urlencode "farmdoit=tanit" \
-#     --data-urlencode "learn=Tanulj teve!" \
-#     --silent \
-#     --output - \
-#     | grep -q "csak holnap tud tanulni"
-# then
-#     echo "Sikerult tanitani!"
-# else
-#     echo "Nem sikerult tanitani!"
-#     exit
-# fi
+echo "Tanitunk..."
+
+if curl --location --request POST "https://teveclub.hu/tanit.pet" \
+    --header "$ua" \
+    --header "Content-Type: application/x-www-form-urlencoded" \
+    --cookie-jar "cookie.txt" \
+    --cookie "cookie.txt" \
+    --data-urlencode "farmdoit=tanit" \
+    --data-urlencode "learn=Tanulj teve!" \
+    --silent \
+    --output - \
+    | grep -q "csak holnap tud tanulni"
+then
+    echo "Sikerult tanitani!"
+else
+    echo "Nem sikerult tanitani!"
+    exit
+fi
 
 echo "Egyszamozunk..."
 
